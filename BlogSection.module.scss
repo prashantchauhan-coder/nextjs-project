@@ -1,0 +1,56 @@
+@mixin comon() {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+$text-color: rgba(255, 0, 0, 0.753);
+$text-width:30vw;
+
+.blogsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    .blogCard {
+        display: flex;
+        justify-content: space-around;
+        width: 90vw;
+        padding: 20px;
+
+        .blog {
+            width: $text-width;
+
+            .blog__title {
+                color: $text-color;
+            }
+        }
+    }
+
+    .blogCard img:hover {
+        @include comon();
+    }
+
+    .blogCard__class {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        width: 90vw;
+        padding: 20px;
+
+        .blog {
+            width:$text-width;
+
+            .blog__title {
+                color: $text-color;
+            }
+
+        }
+    }
+
+        .blogCard__class img:hover {
+            @include comon();
+
+        }
+    }

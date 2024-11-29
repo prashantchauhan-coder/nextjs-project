@@ -1,0 +1,46 @@
+@mixin space() {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer {
+    @include space();
+    align-items: center;
+    padding: 0 2rem;
+    height: 25vh;
+    border-top: 1px dotted black;
+
+    &__heading__one {
+        font-size: 1rem !important;
+    }
+
+    .footer__icons {
+        @include space();
+        width: 15vw;
+    }
+
+    .footer__heading__two {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:850px) {
+    .footer {
+        @include space();
+        flex-direction: column;
+        margin-left:2rem ;
+
+        #footer__heading__one {
+            order: 2;
+        }
+
+        .footer__icons {
+            order: 1;
+        }
+
+        .footer__heading__two {
+            order: 3;
+        }
+    }
+}

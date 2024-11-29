@@ -1,0 +1,53 @@
+$primary-color: #0070f3;
+$secondary-color: #555;
+$background-color: #f9f9f9;
+$white: #fff;
+$heading-color: #333;
+$border-color: #ddd;
+$shadow: 20px;
+$margin: 2rem;
+
+
+.aboutContainer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding:17vh;
+    background-color: $background-color;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+
+    h1 {
+        font-size: $margin;
+        color: $heading-color;
+        text-align: center;
+        margin-bottom: $shadow;
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: $secondary-color;
+        line-height: 1.6;
+        text-align: justify;
+        margin-bottom: $margin;
+    }
+
+    h2 {
+        font-size: $margin;
+        color: $heading-color;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    ul {
+        // list-style-type: none;
+        padding: 0;
+
+        li {
+            font-size: 1.2rem;
+            color: $secondary-color;
+            padding: 5px 0;
+            border-bottom: 1px solid $border-color;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "blogs": [
+        {
+            "id":"1",
+            "title": " The Future of Sustainable Architecture: A Green Revolution",
+            "description": "Explore how architects are adopting sustainable practices to create eco-friendly homes and buildings. This blog discusses materials, designs, and energy-efficient technologies that are shaping the future.",
+            "image": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGltYWdlJTIwb2YlMjBhcmNoaXRlY3R1cmUlMjBibG9nfGVufDB8fDB8fHww"
+        },
+        {
+            "id":"2",
+            "title": "Top 10 Minimalist Home Designs for Modern Living",
+            "description": "Minimalism is more than a trend—it's a lifestyle. Highlight the simplicity and elegance of minimalist homes with open spaces, neutral tones, and smart design.",
+            "image": "https://plus.unsplash.com/premium_photo-1678490404616-a848385995d0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fGltYWdlJTIwb2YlMjBhcmNoaXRlY3R1cmUlMjBibG9nfGVufDB8fDB8fHww"
+        },
+        {
+            "id":"3",
+            "title": "The Role of Technology in Modern Architecture",
+            "description": "Discuss how technology like AI, 3D printing, and smart systems are revolutionizing the architectural world. Include examples of projects utilizing these technologies.",
+            "image": "https://images.unsplash.com/photo-1473177104440-ffee2f376098?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGltYWdlJTIwb2YlMjBhcmNoaXRlY3R1cmUlMjBibG9nfGVufDB8fDB8fHww"
+        },
+        {
+            "id":"4",
+            "title": "Iconic Architectural Styles Through the Ages",
+            "description": "Take a journey through time, exploring iconic architectural styles—from Gothic cathedrals to modern skyscrapers—and their influence on today's designs.",
+            "image": "https://plus.unsplash.com/premium_photo-1700183244951-902a0c86f175?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGltYWdlJTIwb2YlMjBhcmNoaXRlY3R1cmUlMjBibG9nfGVufDB8fDB8fHww"
+        },
+        {
+            "id":"5",
+            "title": " How to Design a Perfect Home Office Space",
+            "description": "With remote work becoming the norm, learn how to design a functional and aesthetic home office. Tips include choosing the right furniture, lighting, and layout.",
+            "image": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGltYWdlJTIwb2YlMjBhcmNoaXRlY3R1cmUlMjBibG9nfGVufDB8fDB8fHww"
+        },
+        {
+            "id":"6",
+            "title": "Smart Cities: The Architecture of Tomorrow",
+            "description": "Explore the concept of smart cities, where technology and architecture converge to create sustainable, efficient urban spaces. Discuss projects like eco-cities and digitally connected urban centers.",
+            "image": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGltYWdlJTIwb2YlMjBhcmNoaXRlY3R1cmUlMjBibG9nfGVufDB8fDB8fHww"
+        }
+    ]
+}

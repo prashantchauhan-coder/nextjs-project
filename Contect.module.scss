@@ -1,0 +1,119 @@
+$primary-color: #0070f3;
+$secondary-color: #555;
+$background-color: green;
+$white: #fff;
+$heading-color: #333;
+$input-border-color: #ddd;
+$button-color: #0070f3;
+$button-hover-color: #005bb5;
+$var-padding: 20px;
+
+
+.contactContainer {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+  background-color: $background-color;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+
+
+  & h1 {
+    font-size: 2.5rem;
+    color: $heading-color;
+    text-align: center;
+    margin-bottom: $var-padding;
+  }
+
+
+  & h2,
+  h3 {
+    font-size: 2rem;
+    color: $heading-color;
+    margin-bottom: 10px;
+  }
+
+
+  & p {
+    font-size: 1.2rem;
+    color: $secondary-color;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: $var-padding;
+    color: $white;
+  }
+
+
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: $var-padding;
+    background-color: $white;
+    padding: $var-padding;
+    border-radius: 8px;
+    border: 1px solid $input-border-color;
+    margin-top: 30px;
+
+
+    & label {
+      font-size: 1.1rem;
+      color: $heading-color;
+      margin-bottom: 5px;
+    }
+
+    & input,
+    & textarea {
+      padding: 12px;
+      font-size: 1rem;
+      border: 1px solid $input-border-color;
+      border-radius: 8px;
+      outline: none;
+      transition: border-color 0.3s ease;
+
+      &:focus {
+        border-color: $primary-color;
+      }
+    }
+
+
+    & button {
+      padding: 12px $var-padding;
+      font-size: 1.2rem;
+      color: $white;
+      background-color: $button-color;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: $button-hover-color;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .contactContainer {
+    padding: 15px;
+  }
+
+  .contactContainer h1 {
+    font-size: 2rem;
+  }
+
+  .contactForm {
+    padding: 15px;
+  }
+
+  .contactForm input,
+  .contactForm textarea {
+    font-size: 1rem;
+  }
+
+  .contactForm button {
+    font-size: 1.1rem;
+  }
+}

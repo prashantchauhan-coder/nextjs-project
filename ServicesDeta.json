@@ -1,0 +1,34 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "title": "Residential Design",
+      "description": "Our residential design services focus on creating personalized, innovative, and sustainable living spaces. Whether you're building your dream home or renovating, we provide custom solutions that reflect your lifestyle and enhance comfort."
+    },
+    {
+      "id": "2",
+      "title": "Commercial Architecture",
+      "description": "We offer expert commercial architecture services, designing functional, dynamic, and aesthetic spaces for businesses. From offices and retail spaces to mixed-use developments, we aim to create environments that foster collaboration, productivity, and growth."
+    },
+    {
+      "id": "3",
+      "title": "Urban Planning & Landscape Architecture",
+      "description": "Our urban planning services focus on designing vibrant, sustainable, and accessible cities. We integrate landscape architecture to enhance public spaces, streetscapes, and green areas, ensuring that communities are functional and enjoyable for all."
+    },
+    {
+      "id": "4",
+      "title": "Interior Architecture",
+      "description": "We specialize in interior architecture, designing spaces that seamlessly blend form and function. Whether it’s an office, home, or commercial space, our interior designs focus on maximizing space, lighting, and aesthetic appeal to create environments that inspire."
+    },
+    {
+      "id": "5",
+      "title": "Sustainable Design",
+      "description": "As leaders in sustainable architecture, we focus on eco-friendly design practices that minimize environmental impact. We incorporate energy-efficient systems, sustainable materials, and innovative solutions to help our clients achieve their green building goals."
+    },
+    {
+      "id": "6",
+      "title": "Renovation & Restoration",
+      "description": "We provide renovation and restoration services that preserve the historical integrity of buildings while updating them for modern use. Our team carefully restores iconic structures and enhances them with modern amenities, ensuring longevity and functionality."
+    }
+  ]
+}
